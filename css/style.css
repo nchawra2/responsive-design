@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/shara_desert.jpg");
+  background-size: cover;
+}
+
+.container {
+  height: 100vh;
+  max-width: 1300px;
+  margin: 20px auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 75px;
+  width: 75px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 45px;
+}
+
+nav ul li a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+#about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-text p {
+  color: white;
+  line-height: 1.7;
+}
+
+.about-text h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 110px;
+}
+
+.about-text button {
+  width: 200px;
+  padding: 12px 0;
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.about-img {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  grid-template-rows: repeat(2, 220px);
+  column-gap: 40px;
+  row-gap: 25px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}

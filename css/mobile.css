@@ -1,0 +1,32 @@
+@media (max-width: 500px) {
+  header {
+    padding: 0 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 0 40px 0 0;
+  }
+
+  #about {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .about-text h1 {
+    font-size: 70px;
+  }
+
+  .about-text {
+    padding-left: 10px;
+  }
+
+  .about-img {
+    grid-template-columns: 250px;
+    grid-template-rows: 250px;
+    margin-top: 30px;
+  }
+}
